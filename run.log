@@ -1,0 +1,24 @@
+2026-03-25 10:46:14,466 - INFO - ============================================================
+2026-03-25 10:46:14,467 - INFO - MLOps Batch Pipeline - Job Started
+2026-03-25 10:46:14,468 - INFO - ============================================================
+2026-03-25 10:46:14,485 - INFO - Configuration loaded: seed=42, window=5, version=v1
+2026-03-25 10:46:14,562 - INFO - Dataset loaded successfully: 10000 total rows
+2026-03-25 10:46:14,574 - INFO - Rolling mean computed: 4 NaN rows dropped (window=5)
+2026-03-25 10:46:14,575 - INFO - Rows after rolling window processing: 9996
+2026-03-25 10:46:14,577 - INFO - Signal generation completed
+2026-03-25 10:46:14,579 - INFO - Total rows processed: 9996
+2026-03-25 10:46:14,580 - INFO - Signal events detected: 4989
+2026-03-25 10:46:14,581 - INFO - Signal rate (decimal): 0.4991 (0.0 to 1.0 range)
+2026-03-25 10:46:14,581 - INFO - Execution latency: 113 ms
+2026-03-25 10:46:14,582 - INFO - ============================================================
+2026-03-25 10:46:14,583 - INFO - Metrics Summary: {
+  "version": "v1",
+  "rows_processed": 9996,
+  "metric": "signal_rate",
+  "value": 0.4991,
+  "latency_ms": 113,
+  "seed": 42,
+  "status": "success"
+}
+2026-03-25 10:46:14,583 - INFO - Job completed successfully
+2026-03-25 10:46:14,584 - INFO - ============================================================
